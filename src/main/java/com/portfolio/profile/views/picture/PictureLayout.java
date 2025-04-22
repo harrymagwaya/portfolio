@@ -7,8 +7,10 @@ import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
 
 
 
-public class Picture extends HorizontalLayout{
-    public Picture(){
-        Image picture = new Image("", "my-picture");
+public class PictureLayout extends HorizontalLayout{
+    public PictureLayout(){
+        Image picture = new Image("/3375.jpg.webp", "my-picture");
+        add(picture);
     }
 }
+
