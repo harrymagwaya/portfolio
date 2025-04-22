@@ -1,4 +1,4 @@
-package com.portfolio.profile.views.nav;
+package com.portfolio.profile.UI.nav;
 
 import com.vaadin.flow.component.applayout.AppLayout;
 import com.vaadin.flow.component.html.Div;
